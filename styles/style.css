@@ -84,9 +84,38 @@ button {
     justify-content: space-between;
     cursor: pointer;
 }
+.technologies-wrap{
+    display: flex;
+    justify-content: center;
+}
 
 .technologies-content{
-    background-color: purple;
     height: 100%;
     width: 75%;
+}
+
+.technologies-title{
+    text-align: center;
+}
+
+.technologies-subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.technologies-subtitle-element{
+    color: #626262;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.technologies-carousel-content span{
+    color: black;
+}
+
+.technologies-carousel-content span:nth-child(1){
+    color: #B2B2B2;
 }
